@@ -28,6 +28,7 @@
 
 /* BODY */
 
+/* allows color to outline score board and score board font color */
 body {
     color: #00ffef;
 }
@@ -194,6 +195,28 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     cursor: pointer;
 }
 
+/* popover */
+
+.hidden {
+    display:none;
+}
+
+.popover-header {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.popover-body {
+    padding: .5rem .75rem;
+    color: #00ffef;
+    background-color: darkblue;
+}
+
+#good-luck {
+    font-weight: bold;
+}
+
+
 /* SCORE BOARD */
 
 .my-col {
@@ -219,4 +242,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     background: #0000ff;
     min-height: 60px;
 }
+
+
 
