@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    src: url("/assets/css/fonts/FishOutOfWater-Regular.woff") format("woff");
+    src: url("/assets/fonts/FishOutOfWater-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -15,7 +15,7 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-    src: url("/assets/css/fonts/FishOutOfWater-Bold.woff") format("woff");
+    src: url("/assets/fonts/FishOutOfWater-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -23,7 +23,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    src: url("/assets/css/fonts/FishOutOfWater-Demibold.woff") format("woff");
+    src: url("/assets/fonts/FishOutOfWater-Demibold.woff") format("woff");
 }
 
 /* header */
@@ -48,4 +48,8 @@ header, h2 {
     font-size: 75px;
     color:#01ffffe4;
     text-align: center;
+}
+
+header .row {
+    margin-right: 0px;
 }
