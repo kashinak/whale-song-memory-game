@@ -65,11 +65,52 @@
                 </button>
             </div>
             <div class="center start-game" id="start">
-                <audio class="hidden" src=""></audio>
                 <button class="btn btn-lg btn-warning">start game!</button>
             </div>
         </div>
     </div>
+    <!-- modeled code after Exeideas tutorial on responsive tables https://www.exeideas.com/2020/10/simple-responsive-html-table.html#Customization -->
+    <div class="container">
+        <div class="row">
+            <div class="col my-col">
+                <button type="button" class="btn btn-outline-warning" id="reset-button">game restart</button>
+            </div>
+            <div class="col my-col">
+                  <!-- Popover #1 -->
+                  <!-- code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/ -->
+                 <a href="#" id="how-to-play" class="btn btn-outline-primary" tabindex="0" data-toggle="popover" data-trigger="focus" data-popover-content="#a1" data-placement="top">how to play</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col my-col" id="score-board">
+                <span>Round</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col my-col" id="round">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <audio class="hidden" src="/assets/audio/bonus_win.mp3" id="win-game-sound"></audio>
+    <audio class="hidden" src="/assets/audio/short_game_over.mp3" id="lose-game-sound"></audio>
+
+<!-- Content for Popover #1 -->
+ <!-- code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/ -->
+    <div id="a1" class="hidden">
+        <div class="popover-header" id="a1-heading">Game Instructions</div>
+
+        <div class="popover-body" id="a1-body">
+            <ul>
+                <li>Wait for the computer to play a sequence of blinking photos and whale sounds.</li>
+                <li>Mimic the game sequence order by pressing on corresponding photos. </li>
+                <li>After each round, the game will generate the previous sequence plus one additional photo/sound. </li>
+                <li>YOU WIN after 20 rounds!</li>
+                <li>GAME OVER if you press a photo out of game sequence.</li>
+            </ul>
+            <p id="good-luck">Play the Game! Good Luck!</p>
+        </div>
+    </div>   
 
    
 

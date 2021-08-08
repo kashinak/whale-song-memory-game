@@ -26,7 +26,13 @@
     src: url("/assets/fonts/FishOutOfWater-Demibold.woff") format("woff");
 }
 
-/* header */
+/* BODY */
+
+body {
+    color: #00ffef;
+}
+
+/* HEADER */
 
 header {
     margin-top: 0;
@@ -54,7 +60,7 @@ header .row {
     margin-right: 0px;
 }
 
-/* game area */
+/* GAME BACKGROUND */
 
 #game-area {
     margin-top: 55px;
@@ -73,7 +79,7 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     z-index: -20;
   }
 
-/* game board */
+/* GAME BOARD */
 
 /* game board images */
 #game-photo-1 {
@@ -100,8 +106,7 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 
 #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
     background-size: cover;
-    /* background-size: contain; */
-    background-position: center;
+    /* background-position: center; */
     min-height: 360px;
     background-repeat: no-repeat;
     z-index: -1;
@@ -144,9 +149,9 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     color: azure;
 }
 
-/* buttons */
+/* BUTTONS */
 
-/* start button */
+/* 'start game!' button */
 
 .btn-warning {
     color: #7dfff4;
@@ -172,4 +177,46 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
   /* code snippet from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-vertical2_btn */
 .container {
     position: relative;
-  } 
+} 
+
+/* 'game restart' button */
+.btn-outline-warning {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* 'how-to-play' button */
+.btn-outline-primary {
+    text-transform: uppercase;
+    color: #01ffff;
+    background-color: #00008b;
+    border-color: #01ffff;
+    cursor: pointer;
+}
+
+/* SCORE BOARD */
+
+.my-col {
+    text-align: center;
+}
+
+#score-board {
+    top: 30px;
+    font-size: 20px;
+    border:2px solid;
+    text-transform:uppercase;
+    font-family: 'Michroma';
+    background: #00008b;
+}
+
+#round {
+    top: 30px; 
+    font-size: 30px;
+    border:2px solid;
+    border-top: none;
+    text-transform:uppercase;
+    font-family: 'Michroma';
+    background: #0000ff;
+    min-height: 60px;
+}
+
