@@ -1,0 +1,51 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
+@font-face {
+    font-family: 'FishOutOfWater';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("/assets/css/fonts/FishOutOfWater-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'FishOutOfWaterBold';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("/assets/css/fonts/FishOutOfWater-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'FishOutOfWaterDemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("/assets/css/fonts/FishOutOfWater-Demibold.woff") format("woff");
+}
+
+/* header */
+
+header {
+    margin-top: 0;
+    background-color: darkblue;
+}
+
+header, h1 {
+    font-family: 'FishOutOfWaterBold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: #01ffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+header, h2 {
+    font-family: 'FishOutOfWaterDemiBold', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    color:#01ffffe4;
+    text-align: center;
+}
