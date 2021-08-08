@@ -53,3 +53,58 @@ header, h2 {
 header .row {
     margin-right: 0px;
 }
+
+/* game area */
+
+#game-area {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+/* game area animated background */
+/* style the video: 100% width and height to cover the entire window. 
+code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+  }
+
+/* game board */
+
+/* game board images */
+#game-photo-1 {
+    background: url("../images/beluga.jpeg");
+    background-position-x: 30%;
+}
+
+#game-photo-2 {
+    background: url("../images/orca.jpeg");
+    background-position-x: 30%;
+}
+
+#game-photo-3 {
+    background: url("../images/rightwhale.jpeg");
+    background-position-x: 30%;
+} 
+
+#game-photo-4 {
+    background: url("../images/spermwhale.jpeg");
+    background-position-x: 87%;
+}
+
+/* code snippet modeled after from https://codeinstitute.com/ Rosie resume tutorial */
+
+#game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center;
+    min-height: 360px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+}
