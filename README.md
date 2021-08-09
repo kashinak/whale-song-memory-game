@@ -68,10 +68,10 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
     The 'start game' button centered over the gameboard in the wireframe, was tossed out to reduce redundancy with the 'game restart' button that was added during development. Upon further user testing, the 'game restart' button was converted into the main 'start game' button but no longer hovered over the game board and instead was built beneath the game board for easy access next to the 'how-to-play' popover button.
 
-    During the testing phase, the bootstrap grid creating the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout.
+    During the testing phase, the bootstrap grid creating the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout
 
 
-    - Mobile Wire Frame - [View](https://github.com/)
+    - Mobile Wire Frame - [View](https://github.com/whale-song-memory-game/assets/wireframes/whalesong_mobile_wireframes2.pdf)
     - Tablet Wire Frame - [View](https://github.com/)
     - Desktop Wire Frame - [View](https://github.com/)
 
