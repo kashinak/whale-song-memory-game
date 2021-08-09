@@ -165,3 +165,125 @@ function blink(id) {
         }, 1000);
     });
 }
+
+//clear lit tile yellow outline
+function clearColor() {
+    topLeft.style.outline = "#00ffff"; 
+    topRight.style.outline = "#00ffff"; 
+    bottomLeft.style.outline = "#00ffff"; 
+    bottomRight.style.outline = "#00ffff"; 
+  }
+  
+  //flash yellow oultine on game tiles
+  function flashYellow() {
+    topLeft.style.backgroundColor = "#ffc108";
+    topRight.style.backgroundColor = "#ffc108";
+    bottomLeft.style.backgroundColor = "#ffc108";
+    bottomRight.style.backgroundColor = "#ffc108";
+  }
+  
+//make game tiles clickable for the player
+  topLeft.addEventListener('click', function(event) { 
+      userPlay.push(1);
+      check();//a function to check if the player's moves are correct
+      playSound1();
+      if(!win) {
+        setTimeout(function() { 
+          clearColor(); //make sure the color the player clicked is going to clear after 300 milliseconds
+        }, 300);
+      }
+  });
+
+  topRight.addEventListener('click', function(event) { 
+      userPlay.push(2); 
+      check();
+      playSound2();
+      if(!win) {
+        setTimeout(function() {  
+          clearColor();
+        }, 300);
+      }
+  });
+  
+  bottomLeft.addEventListener('click', function(event) { 
+      userPlay.push(3); 
+      check();
+      playSound3(); 
+      if(!win) {
+        setTimeout(function() { 
+          clearColor();
+        }, 300);
+      }
+  });
+  
+  bottomRight.addEventListener('click', function(event) { 
+      userPlay.push(4); 
+      check();
+      playSound4();
+      if(!win) {
+        setTimeout(function() {  
+          clearColor();
+        }, 300);
+      }
+  })
+  
+// based on free Code Camp Simon Game tutorial 
+
+//the above 4 functions call the complex check() function
+function check() {
+    if (userPlay[userPlay.length - 1] !== gamePlay[userPlay.length - 1]) 
+      ace = false;
+  /*condition if player wins the game - you can change 3 to 20 to 
+  make the game harder so player wins after 20 rounds*/
+    if (userPlay.length == 3 && ace) { 
+      winGame(); 
+    }
+  //condition if player's moves are wrong
+    if (ace == false) { 
+      flashYellow();
+      setTimeout(function() { 
+        // roundCount.innerHTML = "YOU LOSE!";
+        // document.getElementById("lose-game-sound").play();
+        displayResult();
+   
+
+      }, 2200);
+   
+      setTimeout(function() { 
+        roundCount.innerHTML = round;
+        clearColor();
+          play();//repeating the whole game starting the game over
+
+      }, 800);
+      /*only run playSound functions when sound=true, on 
+      condition that the player's moves are correct */
+      sound = false; 
+        
+    }
+    //condition if player's moves are right but has not won the game yet
+    if (round == userPlay.length && ace && !win) { 
+      round++;
+      userPlay = []; 
+      compTurn = true;
+      flash = 0;
+      roundCount.innerHTML = round;
+      intervalId = setInterval(gameTurn, 800);
+    }
+  
+  }
+  
+  //function if player has won the game
+  function winGame() {
+    flashYellow();
+  
+    //user cannot click any of the tiles while run = false
+    run = false; 
+    win = true;
+    setTimeout(function() { 
+      // document.getElementById("win-game-sound").play();
+      // roundCount.innerHTML = "CONGRATS! YOU WIN!";
+      displayResult();
+
+    }, 1400);
+
+  }
