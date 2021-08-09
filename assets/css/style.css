@@ -343,6 +343,70 @@ https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-g
     outline: none; /* set outline to none so when I click on a button it does not produce a default outline */
 }
 
+/* RESPONSIVE GAME BOARD */
+
+@media screen and (max-width: 768px) {
+    header, h1 {
+      font-size: 60px;
+      width: 100%;
+    }
+    header, h2 {
+        font-size: 35px;
+        width: 100%;
+    }
+    #game-area {
+        margin-top: 10px;
+    }
+    #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
+      
+        min-height: 340px;
+        width: inherit;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header, h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+    header, h2 {
+      font-size: 25px;
+      width: 100%;
+    }
+    #game-area {
+      margin-top: 10px;
+    }
+    #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
+      min-height: 180px;
+      width: inherit;
+      background-size: cover;
+    }
+    #game-area, .row, .panel p {
+        font-size: 17px;
+    }
+    .btn, .btn-lg, .btn-warning {
+          font-size: 17px;
+    }
+    #round {
+          font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+   
+    #score-board {
+        top: 10px;
+    }
+    #round {
+        top: 10px; 
+        font-size: 20px;
+        min-height: 15px;
+    }
+    #game-area {
+        margin-bottom: 10px;
+    }
+}
 
 
 
