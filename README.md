@@ -54,19 +54,19 @@ The game is designed to be fun and light-hearted to help engage the player in le
 
 - ### Card images
 
-     -   Real photos were chosen for the primary game buttons, to represent individual whale species living in their real life natural environment. This documentary feel of the game is to encourage game players to continue their education of whale song beyonfd the game. 
+     -   Real photos were chosen for the primary game buttons, to represent individual whale species living in their real life natural environment. This documentary feel of the game is to encourage game players to continue their education of whale song beyond the game. 
 
 - ### Audio files
 
-     -   Real audio recordings of whale songs were chosen to facilitate the learning experience discovering the nuanced difference between whale song between various whale species. 
+     -   Real audio recordings of whale songs were chosen to facilitate the learning experience discovering the nuanced differences of whale song between various whale species.
 
-     -   The elegant uplifting sound effect which plays after the player presses play button is to indicate to the player that that the game is about to begin.
+     -   An uplifting chime sound effect is heard with a popup game results message to celebrate the player winning the game!
 
-     -   The buzzer like game sound effect was use to clearly indicate to the player that the wrong button was selected and the game is over.
+     -   A down-trodden chime sound effect plays with a losing popup message to alert the player that they lost the game.
 
 - ### Wireframes
 
-    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobil first responsive game site design:
+    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobile first responsive game site design:
 
      -   Mobile Wire Frame - [View](https://github.com/)   
 
