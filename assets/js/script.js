@@ -287,3 +287,60 @@ function check() {
     }, 1400);
 
   }
+
+  //initialize bootstrap popovers
+  // $(function () {
+  //   $('[data-toggle="popover"]').popover()
+  // })
+
+  //code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/
+
+  $(function(){
+    $("[data-toggle=popover]").popover({
+        html : true,
+        content: function() {
+          var content = $(this).attr("data-popover-content");
+          return $(content).children(".popover-body").html();
+        },
+        title: function() {
+          var title = $(this).attr("data-popover-content");
+          return $(title).children(".popover-header").html();
+        }
+    });
+});
+
+// Make the fancy display for results
+/* popup style based on DigiFisk founder, Aathi Elumalai's tutorial on Udemy: 
+'2D Game Development W/ Javascript & CSS3- Create Memory Game' 
+https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/ */ 
+function displayResult() {
+  gameOver = true;
+  let width = window.innerWidth;
+  popupBG.style.display = "block";
+  result.style.display = "block";
+  result.style.left = (width/2) - (500/2) + "px"; //when a number is concatinated with a string it becomes a string//
+  result.style.top = 250 + "px";
+
+  if(userPlay.length == 3) {
+    h1Results.innerHTML = "Congratulations! You won!";
+    pResults.innerHTML = "You've scored " + round + " out of 3 rounds.";
+    document.getElementById("win-game-sound").play();
+  }
+  else {
+    h1Results.innerHTML = "Try again!";
+    pResults.innerHTML = "You've scored " + round + " out of 3 rounds.";
+    document.getElementById("lose-game-sound").play();
+  }
+ 
+}
+
+displayResult();
+
+const okayButton = document.getElementById("okayButton");
+okayButton.addEventListener("click", okayClick);
+
+function okayClick() {
+  result.style.display = "none";
+  popupBG.style.display = "none";
+}
+
