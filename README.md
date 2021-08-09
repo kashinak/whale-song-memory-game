@@ -266,11 +266,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 1.  [Beluga Photo](https://commons.wikimedia.org/wiki/File:Beluga_premier.gov.ru-2.jpeg): [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en), [Premier.gov.ru](https://premier.gov.ru/events/)
 
-1. [Orca Photo](https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg): Public Domain, Robert Pittman, [NOAA](https://apps-afsc.fisheries.noaa.gov/Quarterly/amj2005/divrptsNMML3.htm)
+1.  [Orca Photo](https://commons.wikimedia.org/wiki/File:Killerwhales_jumping.jpg): Public Domain, Robert Pittman, [NOAA](https://apps-afsc.fisheries.noaa.gov/Quarterly/amj2005/divrptsNMML3.htm)
 
-1. [North Atlantic Right Whale Photo](https://commons.wikimedia.org/wiki/File:Right_Whale_%22Scoop%22_(42853281122).jpg): Public Domain, [NOAA](https://apps-afsc.fisheries.noaa.gov/Quarterly/amj2005/divrptsNMML3.htm)
+1.  [North Atlantic Right Whale Photo](https://commons.wikimedia.org/wiki/File:Right_Whale_%22Scoop%22_(42853281122).jpg): Public Domain, [NOAA](https://apps-afsc.fisheries.noaa.gov/Quarterly/amj2005/divrptsNMML3.htm)
 
-1. [Sperm Whale Photo](https://commons.wikimedia.org/wiki/File:0b4a8510_by_vitaly_sokol-dbw14sol.jpg): [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en), [Will Falcon aka Vitaly Sokai](https://commons.wikimedia.org/w/index.php?title=Will_Falcon&action=edit&redlink=1)
+1.  [Sperm Whale Photo](https://commons.wikimedia.org/wiki/File:0b4a8510_by_vitaly_sokol-dbw14sol.jpg): [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en), [Will Falcon aka Vitaly Sokai](https://commons.wikimedia.org/w/index.php?title=Will_Falcon&action=edit&redlink=1)
 
 -   #### Fonts
 
@@ -280,7 +280,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   #### Animation
 
-1. [animated ocean game area and popup background] 
+1.  [animated ocean game area and popup background](https://elements.envato.com/animated-wave-seascape-under-stay-night-sky-backgr-2XS6G2J): [Commerical License](https://elements.envato.com/license-terms), [Envato Elements](https://elements.envato.com/animated-wave-seascape-under-stay-night-sky-backgr-2XS6G2J)
+
+-   #### Graphics
+
+1.  [game results popup whale icon](https://elements.envato.com/cute-whale-sea-animals-characters-vol-6-LUYKUNU), [Commerical License](https://elements.envato.com/license-terms), [Envato Elements](https://elements.envato.com/cute-whale-sea-animals-characters-vol-6-LUYKUNU)
 
 
 ### Acknowledgements
