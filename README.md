@@ -5,6 +5,8 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 ## User Experience (UX)
 
 - ### User stories
+
+
   - #### First Time Player Goals
 
   The target audience for this game is all ages. It is primariy aimed for solo game play but can be played in teams to see who beats the highest game score.
@@ -16,17 +18,16 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   3. As a First Time Player, I want to experience listening to new sounds.
   4. As a First Time Player, I want to know when the game begins and ends.
   5. As a First Time Player, I want to play the game with ease, seeing my progress in real time.
-  Whale Song Memory Game is a great way for the First Time Player meet their player goals because:
-
-  1. The game was sketched and designed with the user experience as central importance before writing code.
-  2. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience. 
-  3. Game layout is untuitive and easy to grasp the rules of the game.
-  4. The game provides easy-to-follow instructions appearing as a popover after pressing a large "how-to-play" button easily located beneath the game baord.
-  5. Large simple game photo tiles that are clickable buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds. 
-  6. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
-  7. Score board is located at the bottom of the game board and updates in real time. 
-  8. A full screen game results popup window appears with fun sound effects and score messages that indicate if the player has won or lost.
-  9. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused gaming experience.
+     Whale Song Memory Game is a great way for the First Time Player meet their player goals because:
+  6. The game was sketched and designed with the user experience as central importance before writing code.
+  7. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience.
+  8. Game layout is untuitive and easy to grasp the rules of the game.
+  9. The game provides easy-to-follow instructions appearing as a popover after pressing a large "how-to-play" button easily located beneath the game baord.
+  10. Large simple game photo tiles that are clickable buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds.
+  11. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
+  12. Score board is located at the bottom of the game board and updates in real time.
+  13. A full screen game results popup window appears with fun sound effects and score messages that indicate if the player has won or lost.
+  14. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused gaming experience.
 
   ---
 
@@ -37,8 +38,8 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   - ### Fonts
 
 
-    - The primary font **FishOutOfWater** was chosen for the game title and results popup text message because it has a fun cartoon-like water quality to create an alternate game reality representation of whale's natural habitat.
-    - The secondary font **Michroma** was chosen for the game controls, score board and game instructions because of its digital, futuristic quality to represent the digital game environment.
+    - The primary font **FishOutOfWater** by Font Bros was chosen for the game title and results popup text message because it has a fun cartoon-like water quality to create an alternate game reality representation of whale's natural habitat.
+    - The secondary font **Michroma** by Google Fonts was chosen for the game controls, score board and game instructions because of its digital, futuristic quality to represent the digital game environment.
   - ### Colors
 
 
@@ -63,9 +64,11 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     - A down-trodden chime sound effect plays with a losing popup message to alert the player that they lost the game.
   - ### Wireframes
 
-    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobile first responsive game site design. The game design evolved beyond the wireframes during testing phase. 
+    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobile first responsive game site design. The game design evolved beyond the wireframes during testing phase.
 
-    The 'start game' button centered over the gameboard in the wireframe, was tossed out to reduce redundancy with the 'game restart' button that was added during development. Upon further user testing, the 'game restart' button became the main 'start game' button but no longer hovered over the game board and instead was built beneath the game board for easy access next to the 'how-to-play' popover button. During the testing phase, the bootstrap grid creating the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. 
+    The 'start game' button centered over the gameboard in the wireframe, was tossed out to reduce redundancy with the 'game restart' button that was added during development. Upon further user testing, the 'game restart' button was converted into the main 'start game' button but no longer hovered over the game board and instead was built beneath the game board for easy access next to the 'how-to-play' popover button.
+
+    During the testing phase, the bootstrap grid creating the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout.
 
 
     - Mobile Wire Frame - [View](https://github.com/)
