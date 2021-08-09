@@ -1,6 +1,6 @@
 # Whale Song Memory Game
 
-This memory game is intended for entertainment and educational purposes and to expand ocean awareness by cultivating a deeper human connection to various whale species through a fun process of memorizing their distinct sound patterns consisting of whale calls and clicks. It is modeled after the classic [Simon game](https://en.wikipedia.org/wiki/Simon_(game).
+This memory game is intended for entertainment and educational purposes to expand ocean awareness by cultivating a deeper human connection to various whale species through beautiful visuals and organic whale song audio. The game is a fun journey of memorizing distinct game sound patterns consisting of whale calls and clicks. It is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29).
 
 ---
 
