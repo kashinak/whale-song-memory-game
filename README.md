@@ -36,13 +36,13 @@ The game is designed to be fun and light-hearted to help engage the player in le
 
 - ### Fonts
 
-     -   The primary font **FishOutOfWater** was chosen for the game title because it has a fun cartoon-like water quality to fit the representation of whale's natural habitat. 
+     -   The primary font **FishOutOfWater** was chosen for the game title and results popup text message because it has a fun cartoon-like water quality to create an alternate game reality representation of whale's natural habitat. 
 
      -   The secondary font **Michroma** was chosen for the game controls, score board and game instructions because of its digital, futuristic quality to represent the digital game environment.
 
 - ### Colors
 
-     -   The primary colors...
+     -   The primary colors calming ocean colors of light blue, medium and dark blue. In contrast to the calm of the ocean blues, game action color is yellow orange. It highlights the game tiles in use and outlines the 'start game' button. This bright color is used to guide the player to take action and play the game.
 
 - ### Styling
 
