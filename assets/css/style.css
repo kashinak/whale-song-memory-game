@@ -243,5 +243,106 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     min-height: 60px;
 }
 
+/* GAME RESULT POPUP */
+
+/* popup style based on DigiFisk founder, Aathi Elumalai tutorial on Udemy: 
+'2D Game Development W/ Javascript & CSS3- Create Memory Game' 
+https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/ */ 
+
+#popupBG, #result {
+    display: none;
+}
+
+#animate-screen {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* height and width of screen at 100% makes popup responsive */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+}
+
+#result {
+  z-index: 10;
+  position: fixed;
+  width: 500px;
+  height: auto;
+}
+
+#popupBody{
+    background-color: white;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px 2px 0px 2px;
+    border-color: darkblue;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#imgDiv {
+    position: relative;
+    top: 0; 
+    margin: 2px auto; 
+    width: 320px;
+    height: 180px;
+}
+
+#imgDiv img {
+    width: 320px;
+    height: 180px;
+}
+
+#h1Results {
+    margin: 0px 2px 2px 2px;
+    font-family: 'FishOutOfWaterBold', Arial, sans-serif;
+    font-size: 40px; 
+    text-align: center;
+    color: darkblue;
+}
+
+#pResults {
+    color: darkblue;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Michroma';
+}
+
+#popOkay {
+    height: 100px;
+    background-color: #3ac8ff;
+    padding: 25px;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px;
+    border-color: darkblue;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#okayButton {
+    height: 50px;
+    width: 95px;
+    margin: 0px auto;
+    z-index: 12;
+}
+
+/* the button has to take up the height and width of the parent div element*/
+#okayButton button {
+    height: 50px;
+    width: 95px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Michroma';
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0px 2px 2px 0.5px rgba(0,0,0,0.5);
+    border: none;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none; /* set outline to none so when I click on a button it does not produce a default outline */
+}
+
+
 
 

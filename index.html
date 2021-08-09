@@ -96,8 +96,10 @@
     <audio class="hidden" src="/assets/audio/short_game_over.mp3" id="lose-game-sound"></audio>
 
 <!-- Content for Popover -->
- <!-- code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/ -->
-    <div id="a1" class="hidden">
+<!-- code based on code snippet from 'Jack' on Stack Overflow 
+    https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  
+    and JSFiddle http://jsfiddle.net/z824fn6b/ -->
+   <div id="a1" class="hidden">
         <div class="popover-header" id="a1-heading">Game Instructions</div>
 
         <div class="popover-body" id="a1-body">
@@ -112,16 +114,19 @@
         </div>
     </div>
 <!-- Results Popup -->
-    <div id="opacityD">
-        <video autoplay loop id="myPopup">
+<!-- popup html structure based on DigiFisk founder, Aathi Elumalai tutorial on Udemy: 
+    '2D Game Development W/ Javascript & CSS3- Create Memory Game' 
+    https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/ -->
+    <div id="popupBG">
+        <video autoplay loop id="animate-screen">
             <source src="/assets/video/animated_wave_23mb.mp4" type="video/mp4">
         </video>
     </div>
     <div id="result">
-        <div id="popBody">
+        <div id="popupBody">
             <div id="imgDiv"><img src="/assets/images/whale_icon.png"></div>
-            <h1 id="h1Res">Congratulations! You Win!</h1>
-            <p id="pRes">You've scored 20 rounds!</p>
+            <h1 id="h1Results">Congratulations! You Win!</h1>
+            <p id="pResults">You've scored 20 rounds!</p>
         </div>
         <div id="popOkay">
             <div id="okayButton"><button>Great!</button></div>
