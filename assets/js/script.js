@@ -12,7 +12,6 @@ let sound = true; // if we are playing sound
 let run = false; // if the game program is running
 let win; // if the player has won the game or not
 
-const startButton = document.getElementById("start"); 
 const roundCount = document.getElementById("round"); 
 const topLeft = document.getElementById("topleft"); 
 const topRight = document.getElementById("topright"); 
@@ -31,21 +30,8 @@ const pResults = document.getElementById("pResults");
 
 // FUNCTIONS
 
-// game reset button
-resetGame.addEventListener("click", reset)
-
-function reset() {
-    startGame();
-}
-
-// upon clicking startButton, game console clears and new game sequence is played
-startButton.addEventListener("click", startGame);
-
-function startGame() {
-    startButton.innerHTML = "Start Game!";
-    startButton.innerHTML = "";
-    play();
-}
+// upon clicking resetGame button, game console clears and new game sequence is played
+resetGame.addEventListener("click", play)
 
 function play() {
     win = false; // upon game starting, player has NOT won yet
@@ -82,7 +68,7 @@ function gameTurn() {
     run = false; 
     /* when set to false, player cannot click any of the buttons while the game is flashing colors. */
     init() 
-    if (flash == round) { /* if the numbers of time the lights have have flashed 
+    if (flash === round) { /* if the numbers of time the lights have have flashed 
      equals the turn that we are on then that means the computer's 
      turn is over. so if the computer's turn is over, we are going to clear interval */
       clearInterval(intervalId);
