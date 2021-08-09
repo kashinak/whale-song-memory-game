@@ -58,7 +58,7 @@ The game is designed to be fun and light-hearted to help engage the player in le
 
 - ### Audio files
 
-     -   Real audio recordings of whale songs were chosen to facilitate the learning experience discovering the nuanced differences of whale song between various whale species.
+     -   Real audio recordings of whale songs were chosen to facilitate the learning experience discovering the nuanced differences of whale song between various whale species. They have been edited down to 1 second each so the game experience is fluid. 
 
      -   An uplifting chime sound effect is heard with a popup game results message to celebrate the player winning the game!
 
