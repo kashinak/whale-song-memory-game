@@ -1,9 +1,5 @@
 # Whale Song Memory Game
-
-This memory game is intended for entertainment and educational purposes to expand ocean awareness by cultivating a deeper human connection to various whale species through beautiful visuals and organic whale song audio. The game is a fun journey of memorizing distinct game sound patterns consisting of whale calls and clicks. It is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29).
-
----
-
+This memory game is intended for entertainment and educational purposes. The goal of the user experience is to have fun while learning about the distinct differences of whale calls between various whale species.  This game experience will hopefully forge a deep appreciation for the musical notes of whale song. [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29).
 ## User Experience (UX)
 
 -   ### User stories
@@ -19,19 +15,18 @@ This memory game is intended for entertainment and educational purposes to expan
         3. As a First Time Player, I want to experience listening to new sounds.
         4. As a First Time Player, I want to know when the game begins and ends.
         5. As a First Time Player, I want to play the game with ease, seeing my progress in real time.
-        6. As a First Time Player, I want to be able to save my highest score and return to the game to try to beat that high score. 
-
+     
     Whale Song Memory Game is a great way for the First Time Player meet their player goals because:
 
         1. The game was sketched and designed with the user experience as central importance before writing code.
-        2. The game controls are large, the photography is beautiful and the audio of each sound effect are level allowing for a easy, enjoyable viewing and listening experience. 
+        2. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience. 
         3. Game layout is untuitive and easy to grasp the rules of the game.
-        4. The game provides easy-to-follow instructions at a press of a large "Game Rules" button centrally lcoated at the top of the game baord.
+        4. The game provides easy-to-follow instructions at a press of a large "how-to-play" button easily located beneath the game baord.
         5. Large simple game buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds.
-        6. Fun interesting sounds and visuals guide the player to start playing, follow along, end and restart the game. 
-        7. Game provides a large "Mute" button to allow the player the option of a visual-only game play experience.
-        8. Score board is located at the bottom of the game board and updates in real time. 
-        9. The game interface is simple and has no adds appended to the site to provide a learning focused experience for the player. 
+        6. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
+        7. Score board is located at the bottom of the game board and updates in real time. 
+        8. A full screen game results popup window appears with fun sound effects and score messages that indicate the player has won or lost.
+        9. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused experience for the player without the clutter of unrelated site media.
 
 ---
 
