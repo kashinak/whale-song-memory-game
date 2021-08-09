@@ -42,15 +42,19 @@ The game is designed to be fun and light-hearted to help engage the player in le
 
 - ### Colors
 
-     -   The primary colors calming ocean colors of light blue, medium and dark blue. In contrast to the calm of the ocean blues, game action color is yellow orange. It highlights the game tiles in use and outlines the 'start game' button. This bright color is used to guide the player to take action and play the game.
+     -   The primary colors calming ocean colors of light blue, medium and dark blue. In contrast to the ocean blues, the game action color is yellow orange. It highlights the game tiles in use and outlines the 'start game' button. This bright color is used to guide the player to take action and play the game.
 
 - ### Styling
 
+    -   A cute cartoon whale is used as a graphic in the game results popup to make it fun for the player regardless of winning or losing the game.
+
 - ### Backgrounds
+
+    -   An animated ocean waves background with the game area primary blue colors is the background for the main game area and for the game results popup message. Again mimicking the whale habitat within the game. 
 
 - ### Card images
 
-     -   Real photos were chosen for the primary game buttons, to represent individual whale species living in their real life natural environment. This documentary feel of the game is to encourage game players to continue their education of whale song outside the game. 
+     -   Real photos were chosen for the primary game buttons, to represent individual whale species living in their real life natural environment. This documentary feel of the game is to encourage game players to continue their education of whale song beyonfd the game. 
 
 - ### Audio files
 
