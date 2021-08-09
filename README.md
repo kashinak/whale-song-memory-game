@@ -21,13 +21,12 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   1. The game was sketched and designed with the user experience as central importance before writing code.
   2. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience. 
   3. Game layout is untuitive and easy to grasp the rules of the game.
-  4. The game provides easy-to-follow instructions at a press of a large "how-to-play" button easily located beneath the game baord.
-  5. Large simple game buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds.
+  4. The game provides easy-to-follow instructions appearing as a popover after pressing a large "how-to-play" button easily located beneath the game baord.
+  5. Large simple game photo tiles that are clickable buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds. 
   6. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
   7. Score board is located at the bottom of the game board and updates in real time. 
-  8. A full screen game results popup window appears with fun sound effects and score messages that indicate the player has won or lost.
-  9. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused experience for the player without the clutter of unrelated site media.
-
+  8. A full screen game results popup window appears with fun sound effects and score messages that indicate if the player has won or lost.
+  9. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused gaming experience.
 
   ---
 
