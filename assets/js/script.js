@@ -1,4 +1,4 @@
-//game variables
+// GAME VARIABLES
 let gamePlay = [];//array to keep track of the computer's order of tile selections
 let userPlay = []; //array to keep track of player's order of tile selections
 let flash; //the number (integer) of tile flashes in the game 
@@ -20,7 +20,10 @@ const bottomLeft = document.getElementById("bottomleft");
 const bottomRight = document.getElementById("bottomright"); 
 const resetGame = document.getElementById("reset-button"); 
 
-//Udemy tutorial 2d Game Develpoment w/Javascript & CSS3 - Create Memory Game
+// RESULTS POPUP VARIABLES
+/* game results popup variables based on DigiFisk founder, Aathi Elumalai's tutorial on Udemy: 
+    '2D Game Development W/ Javascript & CSS3- Create Memory Game' 
+    https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/ */
 const result = document.getElementById("result");
 const popupBG = document.getElementById("popupBG");
 const h1Results = document.getElementById("h1Results");
