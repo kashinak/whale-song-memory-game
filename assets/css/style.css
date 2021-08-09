@@ -143,7 +143,7 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 
 /* whale titles */
 
-.btn p {
+.btn .titles {
     font-family: 'Michroma', sans-serif;
     font-weight: bold;
     font-size: 27px;
@@ -152,7 +152,7 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 
 /* BUTTONS */
 
-/* 'game restart' button */
+/* 'game start' button */
 .btn-outline-warning {
     text-transform: uppercase;
     cursor: pointer;

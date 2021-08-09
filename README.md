@@ -114,6 +114,9 @@ The game is designed to be fun and light-hearted to help engage the player in le
 1. [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
     - Adobe Premiere Pro was used to edit whale sounds to 1 second each and mix all whale sounds at the same audio level to provide consistency for the player's user experience. 
 
+1. [Adobe Media Encoder](https://www.adobe.com/products/media-encoder.html)
+    - Adobe Media Encoder was used to compress large file of animated wave into a smaller file more suitable for web playback.
+
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://gitgub.com/) during the design process.
 
@@ -269,9 +272,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 1. [Sperm Whale Photo](https://commons.wikimedia.org/wiki/File:0b4a8510_by_vitaly_sokol-dbw14sol.jpg): [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en), [Will Falcon aka Vitaly Sokai](https://commons.wikimedia.org/w/index.php?title=Will_Falcon&action=edit&redlink=1)
 
+-   #### Fonts
+
+1.  ['FishOutOfWater'](https://www.fontbros.com/families/fish-out-of-water): [Standard Web Font License](https://www.fontbros.com/families/fish-out-of-water), [Harold's Fonts](https://www.fontbros.com/foundries/harolds-fonts#)
+
+1.  ['Michroma']("https://fonts.googleapis.com/css2?family=Michroma&display=swap"): [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL), [Vernon Adams](https://sansoxygen.com/)
+
+-   #### Animation
+
+1. [animated ocean game area and popup background] 
+
 
 ### Acknowledgements
 
 -   My Mentor, Moosa Hassan for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   Code Institute for their support.

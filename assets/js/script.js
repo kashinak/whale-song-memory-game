@@ -1,5 +1,5 @@
 // GAME VARIABLES
-let gamePlay = [];// array to keep track of the computer's order of tile selections
+let gamePlay = []; // array to keep track of the computer's order of tile selections
 let userPlay = []; // array to keep track of player's order of tile selections
 let flash; // the number (integer) of tile flashes in the game 
 let round; // keep track of what round we are on
@@ -82,16 +82,16 @@ function gameTurn() {
       clearColor(); /* setTimeout is very similar to setInterval which repeats something over and over, 
       set timeout is going to do something once after a certain number of milliseconds */
       setTimeout(function() { // my code - I converted arrow function to vanilla JS
-        if (gamePlay[flash] == 1) playSound1(); // if condition is true run playSound1() function and so on
-        if (gamePlay[flash] == 2) playSound2();
-        if (gamePlay[flash] == 3) playSound3();
-        if (gamePlay[flash] == 4) playSound4();
+        if (gamePlay[flash] === 1) playSound1(); // if condition is true run playSound1() function and so on
+        if (gamePlay[flash] === 2) playSound2();
+        if (gamePlay[flash] === 3) playSound3();
+        if (gamePlay[flash] === 4) playSound4();
         flash++; // the computer goes up one flash after every 200 milliseconds
       }, 200);// I changed from 200 to 1500
     }
 }
 
-//link game photo tiles with corresponding game sounds and blink capability//
+// link game photo tiles with corresponding game sounds and blink capability //
 function playSound1() {
     document.getElementById("game-photo-1").style.outline =
         "#ffc108 solid 10px";
@@ -120,8 +120,8 @@ function playSound4() {
     blink("game-photo-4");
 }
 
-/*function init() to provide event listeners to make game buttons clickable and to playsound 
-and blink when player presses game button*/
+/* function init() to provide event listeners to make game buttons clickable and to playsound 
+and blink when player presses game button */
 function init() {
     document
         .getElementById("game-photo-1")
@@ -137,8 +137,8 @@ function init() {
         .addEventListener("click", playSound4);
 }
 
-/*blink function creates yellow outline border appear when player clicks a gameboard button and 
-then the border disappears after 1 second*/
+/* blink function creates yellow outline border appear when player clicks a gameboard button and 
+then the border disappears after 1 second */
 function blink(id) {
     let f = document.getElementById(id);
     new Promise(function(resolve, reject) { 
@@ -152,7 +152,7 @@ function blink(id) {
     });
 }
 
-//clear lit tile yellow outline
+// clear lit tile yellow outline
 function clearColor() {
     topLeft.style.outline = "#00ffff"; 
     topRight.style.outline = "#00ffff"; 
@@ -160,22 +160,22 @@ function clearColor() {
     bottomRight.style.outline = "#00ffff"; 
   }
   
-  //flash yellow oultine on game tiles
-  function flashYellow() {
+// flash yellow oultine on game tiles
+function flashYellow() {
     topLeft.style.backgroundColor = "#ffc108";
     topRight.style.backgroundColor = "#ffc108";
     bottomLeft.style.backgroundColor = "#ffc108";
     bottomRight.style.backgroundColor = "#ffc108";
-  }
+}
   
-//make game tiles clickable for the player
+// make game tiles clickable for the player
   topLeft.addEventListener('click', function(event) { 
       userPlay.push(1);
-      check();//a function to check if the player's moves are correct
+      check(); // a function to check if the player's moves are correct
       playSound1();
       if(!win) {
         setTimeout(function() { 
-          clearColor(); //make sure the color the player clicked is going to clear after 300 milliseconds
+          clearColor(); // make sure the color the player clicked is going to clear after 300 milliseconds
         }, 300);
       }
   });
@@ -215,17 +215,17 @@ function clearColor() {
   
 // based on free Code Camp Simon Game tutorial 
 
-//the above 4 functions call the complex check() function
+// the above 4 functions call the complex check() function
 function check() {
     if (userPlay[userPlay.length - 1] !== gamePlay[userPlay.length - 1]) 
       ace = false;
-  /*condition if player wins the game - you can change 3 to 20 to 
-  make the game harder so player wins after 20 rounds*/
-    if (userPlay.length == 3 && ace) { 
+  /* condition if player wins the game - you can change 3 to 20 to 
+  make the game harder so player wins after 20 rounds */
+    if (userPlay.length === 3 && ace) { 
       winGame(); 
     }
-  //condition if player's moves are wrong
-    if (ace == false) { 
+  // condition if player's moves are wrong
+    if (ace === false) { 
       flashYellow();
       setTimeout(function() { 
         // roundCount.innerHTML = "YOU LOSE!";
@@ -238,16 +238,16 @@ function check() {
       setTimeout(function() { 
         roundCount.innerHTML = round;
         clearColor();
-          play();//repeating the whole game starting the game over
+          play();// repeating the whole game starting the game over
 
       }, 800);
-      /*only run playSound functions when sound=true, on 
+      /* only run playSound functions when sound=true, on 
       condition that the player's moves are correct */
       sound = false; 
         
     }
-    //condition if player's moves are right but has not won the game yet
-    if (round == userPlay.length && ace && !win) { 
+    // condition if player's moves are right but has not won the game yet
+    if (round === userPlay.length && ace && !win) { 
       round++;
       userPlay = []; 
       compTurn = true;
@@ -258,11 +258,11 @@ function check() {
   
   }
   
-  //function if player has won the game
+  // function if player has won the game
   function winGame() {
     flashYellow();
   
-    //user cannot click any of the tiles while run = false
+    // user cannot click any of the tiles while run = false
     run = false; 
     win = true;
     setTimeout(function() { 
@@ -274,12 +274,12 @@ function check() {
 
   }
 
-  //initialize bootstrap popovers
+  // initialize bootstrap popovers
   // $(function () {
   //   $('[data-toggle="popover"]').popover()
   // })
 
-  //code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/
+  // code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/
 
   $(function(){
     $("[data-toggle=popover]").popover({
@@ -300,14 +300,14 @@ function check() {
 '2D Game Development W/ Javascript & CSS3- Create Memory Game' 
 https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/ */ 
 function displayResult() {
-  gameOver = true;
+
   let width = window.innerWidth;
   popupBG.style.display = "block";
   result.style.display = "block";
-  result.style.left = (width/2) - (500/2) + "px"; //when a number is concatinated with a string it becomes a string//
+  result.style.left = (width/2) - (500/2) + "px"; // when a number is concatinated with a string it becomes a string//
   result.style.top = 250 + "px";
 
-  if(userPlay.length == 3) {
+  if(userPlay.length === 3) {
     h1Results.innerHTML = "Congratulations! You won!";
     pResults.innerHTML = "You've scored " + round + " out of 3 rounds.";
     document.getElementById("win-game-sound").play();
