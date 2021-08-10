@@ -274,11 +274,6 @@ function check() {
 
   }
 
-  // initialize bootstrap popovers
-  // $(function () {
-  //   $('[data-toggle="popover"]').popover()
-  // })
-
   // code snippet from 'Jack' on Stack Overflow https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover  and JSFiddle http://jsfiddle.net/z824fn6b/
 
   $(function(){
