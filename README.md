@@ -278,9 +278,11 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Acknowledgements
 
-  - My Mentor, Moosa Hassan for his dedication and time for helpful project feedback.
+  - My Mentor, [Moosa Hassan](https://moosahassanx.github.io/Personal-Website/) for his dedication and time for helpful project feedback.
   - [Code Institute](https://codeinstitute.net/) for their support and education.
   - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
-  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models (freeCodeCamp)(https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
+  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models [freeCodeCamp](https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
   - [Ayooluwa Isaiah](https://freshman.tech/about/), for his informative blog: [How to build a Simon Game with JavaScript](https://freshman.tech/simon-game/)
-  - 
+  - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
+  - [Wojciech KAtuzny](https://mrkaluzny.medium.com/), blog: [Creating Simon Game in Javascript](https://medium.com/front-end-weekly/create-simon-game-in-javascript-d53b474a7416)
+  - [Happy Coder](https://www.youtube.com/channel/UCLG_lIjyLPqjN-KtHK_aE-Q), for her YouTube explainer video: [Building a Simon Game web app using javascript and jQuery](https://youtu.be/4pfvy_A5ceE)
