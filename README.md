@@ -196,7 +196,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     - The win and lose game sound effects do not play on Safari mobile view.
     - Animated wave background will not load when played on Safari, Chrome and Firefox tablet view.
     - Player is able to push game board tile buttons prior to hitting 'start game' button and while the game is playing back a sequence.
-    - Somtimes whale sounds and flashing tiles play out of synch when playing on tablet devices.
+    - Sometimes whale sounds and flashing tiles play out of synch when playing on tablet devices.
 
   ### Additional Features to add in the next version
 
