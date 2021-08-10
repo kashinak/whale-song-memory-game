@@ -13,21 +13,23 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   Player goals are:
 
-  1. As a First Time Player, I want a fun and educational game to play.
+  1. As a First Time Player, I want to play a fun and eductional game.
   2. As a First Time Player, I want to easily grasp the rules of the game.
   3. As a First Time Player, I want to experience listening to new sounds.
   4. As a First Time Player, I want to know when the game begins and ends.
   5. As a First Time Player, I want to play the game with ease, seeing my progress in real time.
-     Whale Song Memory Game is a great way for the First Time Player meet their player goals because:
-  6. The game was sketched and designed with the user experience as central importance before writing code.
-  7. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience.
-  8. Game layout is untuitive and easy to grasp the rules of the game.
-  9. The game provides easy-to-follow instructions appearing as a popover after pressing a large "how-to-play" button easily located beneath the game baord.
-  10. Large simple game photo tiles that are clickable buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds.
-  11. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
-  12. Score board is located at the bottom of the game board and updates in real time.
-  13. A full screen game results popup window appears with fun sound effects and score messages that indicate if the player has won or lost.
-  14. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused gaming experience.
+
+  Whale Song Memory Game is a great way for the First Time Player to meet their player goals because:
+
+  1. The game was sketched and designed with the user experience as central importance before writing code.
+  2. The game controls are large, the photography is beautiful and the audio of each sound effect volume levels are even, allowing for a easy, enjoyable viewing and listening experience.
+  3. Game layout is untuitive and easy to grasp the rules of the game.
+  4. The game provides easy-to-follow instructions appearing as a popover after pressing a large "how-to-play" button easily located beneath the game baord.
+  5. Large simple game photo tiles that are clickable buttons to make it easy to play the game allowing more focus on listening and learning about various whale sounds.
+  6. Fun interesting sounds and visuals guide the player to start playing, follow along, end game or restart game.
+  7. Score board is located at the bottom of the game board and updates in real time.
+  8. A full screen game results popup window appears with fun sound effects and score messages that indicate if the player has won or lost.
+  9. The game interface is simple and has no commercial adds appended to the site. This pure game site, provides a learning focused gaming experience.
 
   ---
 
@@ -64,14 +66,9 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     - A down-trodden chime sound effect plays with a losing popup message to alert the player that they lost the game.
   - ### Wireframes
 
-    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobile first responsive game site design. The game design evolved beyond the wireframes during testing phase.
-
-    The 'start game' button centered over the gameboard in the wireframe, was tossed out to reduce redundancy with the 'game restart' button that was added during development. Upon further user testing, the 'game restart' button was converted into the main 'start game' button but no longer hovered over the game board and instead was positioned beneath the game board for easy access next to the 'how-to-play' popover button.
-
-    During the testing phase, the bootstrap grid creating the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout.
+    These wireframes were created using [Balsamiq](https://balsamiq.com/) to facilitate a mobile first responsive game site design. The game design evolved beyond the wireframes during testing phase explained below in the 'Testing' section.
     
     A flow chart was drawn to map out Javascript order of functionality.
-
 
     - Mobile Wire Frame - [View](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/wireframes/whalesong_mobile_wireframes2.pdf)
     - Tablet Wire Frame - [View](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/wireframes/whalesong_tablet_wireframes2.pdf)
@@ -135,13 +132,10 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-  - [W3C Markup Validator](https://validator.w3.org/nu/#textarea) - [Results](https://validator.w3.org/nu/#textarea)
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://jigsaw.w3.org/css-validator/validator)
+  - [W3C Markup Validator](https://validator.w3.org/nu/#textarea) - [Results](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/validator%20results/nu_html_checker_results.pdf)
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/validator%20results/w3c_css_validator_results.pdf)
 
   ### Testing User Stories from User Experience (UX) Section
-
-  - #### First Time User Goals
-  - #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
