@@ -259,7 +259,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Content
 
-  - All content was written by [Kashina Kessler](https://kashinak.github.io/kashinak-content-portfolio/) but some code snippets may be very similar and partially identical to code snippets, mentioned above under the 'Code' section. The developer has added comments to JS CSS and HTML adding credit and links to these particular code snippets. All code was customized by the developer to create a brand new game product.
+  - All content was written by Kashina Kessler but some code snippets may be very similar and partially identical to code snippets, mentioned above under the 'Credits: Code' section. The developer has added comments to JS CSS and HTML adding credit and links to these particular code snippets. All code was customized by the developer to create a brand new game product.
 
   ### Media
 
