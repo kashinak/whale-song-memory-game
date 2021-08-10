@@ -161,7 +161,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Known Bugs
 
-  - Title font:'FishOutOfWater'by [Font Bros](https://www.fontbros.com/) would not load after supplying to style.css the @font-face with  url for Font Bros.
+  - Title font:'FishOutOfWater'by [Font Bros](https://www.fontbros.com/) would not load after adding link: @font-face with url for Font Bros to style.css.
     - Bug was squashed by adding WOFF files to Whale Song game site directory and update the css code to:
 
       ```css
@@ -193,6 +193,16 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
 
       ```
+
+    #### Bugs to fix in the next version
+    - When the site reloads, sometimes the game results popup screen covers the game board. 
+    - Sometimes the game plays several game tiles at the same time after clicking on the game tiles. 
+    - The yellow orange game tile border needs style improvements so that the border is more solid. 
+   
+  ### Additional Features to add in the next version
+   - 'High Score' box to record and save player high scores.
+   - Add a game difficulty setting so the player may choose how many rounds they want to play to win.
+   - Add more sound effects and visuals on game start to make it more fun and exciting.
 
 
   ## Deployment
