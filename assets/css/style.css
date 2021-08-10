@@ -78,7 +78,7 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     min-width: 100%;
     min-height: 100%;
     z-index: -20;
-  }
+}
 
 /* GAME BOARD */
 
@@ -107,7 +107,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 
 #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
     background-size: cover;
-    /* background-position: center; */
     min-height: 360px;
     background-repeat: no-repeat;
     z-index: -1;
@@ -242,7 +241,7 @@ https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-g
   height: auto;
 }
 
-#popupBody{
+#popupBody {
     background-color: white;
     height: 300px;
     border-style: solid;
@@ -330,7 +329,6 @@ https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-g
         margin-top: 10px;
     }
     #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
-      
         min-height: 340px;
         width: inherit;
         background-size: cover;

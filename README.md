@@ -296,3 +296,4 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
   - [Wojciech KAtuzny](https://mrkaluzny.medium.com/), blog: [Creating Simon Game in Javascript](https://medium.com/front-end-weekly/create-simon-game-in-javascript-d53b474a7416)
   - [Happy Coder](https://www.youtube.com/channel/UCLG_lIjyLPqjN-KtHK_aE-Q), for her YouTube explainer video: [Building a Simon Game web app using javascript and jQuery](https://youtu.be/4pfvy_A5ceE)
+  - [W3 Schools - 'How To - Full Screen Video](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
