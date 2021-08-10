@@ -281,4 +281,6 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   - My Mentor, Moosa Hassan for his dedication and time for helpful project feedback.
   - [Code Institute](https://codeinstitute.net/) for their support and education.
   - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
-  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his (freeCodeCamp)(https://www.freecodecamp.org/) tutorial: (Simon Game JavaScript Tutorial for Beginners)(https://youtu.be/n_ec3eowFLQ)
+  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models (freeCodeCamp)(https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
+  - [Ayooluwa Isaiah](https://freshman.tech/about/), for his informative blog: [How to build a Simon Game with JavaScript](https://freshman.tech/simon-game/)
+  - 
