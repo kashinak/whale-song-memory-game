@@ -194,7 +194,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     - When one game tile is to be played more than once in succession, the game tile only highlights once. Nonetheless it is still easy to play the game.
     - The yellow orange game tile border needs style improvements so that the border is more solid.
     - The win and lose game sound effects do not play on Safari mobile view.
-    - Animated wave background will not load when played on Safari, Chrome and Firefox tablet view.
+    - Animated wave background will not load when played on Safari, Chrome and Firefox tablet view. It also jerks during playback on desktop device.
     - Player is able to push game board tile buttons prior to hitting 'start game' button and while the game is playing back a sequence.
     - Sometimes whale sounds and flashing tiles play out of synch when playing on tablet devices.
 
