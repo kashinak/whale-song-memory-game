@@ -118,12 +118,16 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   8. [Adobe Media Encoder](https://www.adobe.com/products/media-encoder.html)
 
      - Adobe Media Encoder was used to compress large file of animated wave into a smaller file more suitable for web playback.
-  9. [Balsamiq:](https://balsamiq.com/)
+  9. [Balsamiq](https://balsamiq.com/)
 
-     - Balsamiq was used to create the [wireframes](https://gitgub.com/) during the design process.
-10. [draw.io](https://drawio-app.com/product/)
+     - Balsamiq was used to create the [wireframes](https://github.com/kashinak/whale-song-memory-game/tree/main/assets/wireframes) during the design process. 
+  10. [draw.io](https://drawio-app.com/product/)
+  
+    - Draw.io was used to draw a simple flow chart to map out the order of Javascript game functionality.
+     
+ 
 
-    - draw.io was used to draw a simple flow chart to map out the order of Javascript game functionality.
+ 
 
 
 
@@ -131,8 +135,8 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-  - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+  - [W3C Markup Validator](https://validator.w3.org/nu/#textarea) - [Results](https://validator.w3.org/nu/#textarea)
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://jigsaw.w3.org/css-validator/validator)
 
   ### Testing User Stories from User Experience (UX) Section
 
