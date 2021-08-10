@@ -137,10 +137,9 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Testing User Stories from User Experience (UX) Section
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-
-       1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-       2. The main points are made immediately with the hero image
+    1. Game controls
+       1. The large 'start game' button shown in wireframes was tested but tossed because it was redundant in functionality similar to 'game restart' button developed later. The latter was converted to a 'game start' button and positioned beneath the game board and highlighted in orange yellow to grab the player's attention to begin the game. This cleared up original confusion for the first time player, to use one button to start and restart the game when necessary. The game board design is now cleaner without the original large 'game start' button overlayed on top as originally shown in wireframes.
+       2. The 'how-to-play' button was a dropdown card with game instructions and was originally located at the top of the game area beneath the header but the location and design confused the player because it looked like part of the header and not an actual game button. To remedy the player confusion, the game instructions was reduced in size and positioned to the right of the 'start game' button beneath the game board for easy access. It's design is identical to the 'start game' button so you know to click on it as a game control. A dim blue outline was added to the 'how-to-play button so that its design does not compete with the more important 'start game' yellow/orange outlined button. 
        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
