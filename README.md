@@ -137,26 +137,23 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Testing User Stories from User Experience (UX) Section
 
-    1. Game controls
+    1. Game Controls
        1. The large 'start game' button shown in wireframes was tested but tossed because it was redundant in functionality similar to 'game restart' button developed later. The latter was converted to a 'game start' button and positioned beneath the game board and highlighted in orange yellow to grab the player's attention to begin the game. This cleared up original confusion for the first time player, to use one button to start and restart the game when necessary. The game board design is now cleaner without the original large 'game start' button overlayed on top as originally shown in wireframes.
-       2. The 'how-to-play' button was a dropdown card with game instructions and was originally located at the top of the game area beneath the header but the location and design confused the player because it looked like part of the header and not an actual game button. To remedy the player confusion, the game instructions was reduced in size and positioned to the right of the 'start game' button beneath the game board for easy access. It's design is identical to the 'start game' button so you know to click on it as a game control. A dim blue outline was added to the 'how-to-play button so that its design does not compete with the more important 'start game' yellow/orange outlined button. 
-       3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+       2. The 'how-to-play' button was a dropdown card with game instructions and was originally located at the top of the game area beneath the header but the location and design confused the player because it looked like part of the header and not an actual game button. To remedy the player confusion, the game instructions was reduced in size and positioned to the right of the 'start game' button beneath the game board for easy access. It's design is identical to the 'start game' button so the player knows to click on it to show a nifty popover message displaying a short list of game instructions. A dim blue outline was added to the 'how-to-play button so that its design does not compete with the more important 'start game' yellow/orange outlined button. 
+    
+    2. Game Board
 
-       1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-       2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-       3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+       1. When tested, the first time player encountered game visibilty issues in mobile view. The bootstrap grid aplied to the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout in all device screen sizes.
+       
+    3. Score Board
 
-       1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-       2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-       3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+       1. The orignal score board also updated in real time, diplaying what round the player was on and also displyed text indicating whether the player won or lost the game. It was very basic and the player wasn't clear if they had won or lost the game. To make the game more fun and dynamic by notifying the player in a bolder way if they won or lost, a visually beautiful popup results diplay solved this issue. Adding sound effects, a cute whale icon, an animated wave and different messages to notify the player if they had won or lost the game made huge difference in the player having fun with the game. A third 'great!' button was added so the user can click it to make the results popup window disappear and return the player to the game. The orignal score board remains below the game control buttons and displays what round the player is on but now it does not display a win or lose message.  More simplicity and user interaction creates a more engaging user experience.
+      
 
   ### Further Testing
 
   - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
   - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-  - A large amount of testing was done to ensure that all pages were linking correctly.
   - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
   ### Known Bugs
