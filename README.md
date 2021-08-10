@@ -1,6 +1,6 @@
 # Whale Song Memory Game
 
-This memory game is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29). The goal of the user experience is to have fun while learning about the distinct differences of whale calls between various whale species.  This game will hopefully inspire its users to stop and appreciate the musical notes of whale songs and get active in saving our oceans for future generations.
+This memory game is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29). The goal of the user experience is to have fun while learning about the distinct differences of whale calls between various whale species.  This game will hopefully inspire its users to stop and appreciate the musical notes of whale songs and gain an interest in saving our oceans for future generations.
 
 ## User Experience (UX)
 
@@ -188,7 +188,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
           font-style: normal;
           font-display: swap;
           url("/fonts/FishOutOfWater-Demibold.woff") format("woff");
-      }```
+      }
 
 
 
