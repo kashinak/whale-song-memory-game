@@ -72,8 +72,8 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
 
     - Mobile Wire Frame - [View](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/wireframes/whalesong_mobile_wireframes2.pdf)
-    - Tablet Wire Frame - [View](https://github.com/)
-    - Desktop Wire Frame - [View](https://github.com/)
+    - Tablet Wire Frame - [View](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/wireframes/whalesong_tablet_wireframes2.pdf)
+    - Desktop Wire Frame - [View](https://github.com/kashinak/whale-song-memory-game/blob/main/assets/wireframes/whalesong_desktop_wireframes.pdf)
 
   ## Features
 
