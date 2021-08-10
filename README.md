@@ -144,10 +144,13 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     2. Game Board
 
        1. When tested, the first time player encountered game visibilty issues in mobile view. The bootstrap grid aplied to the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout in all device screen sizes.
+       2. Original whale sounds were varying length and overlapped while playing making it confusing to identify a singular whale sound unique to each whale. Whale call raw files were edited down and audio mixed in Adobe Premiere Pro to 1-second durations to help simplify the audio playback game experience and build playback momentum.
        
     3. Score Board
 
-       1. The orignal score board also updated in real time, diplaying what round the player was on and also displyed text indicating whether the player won or lost the game. It was very basic and the player wasn't clear if they had won or lost the game. To make the game more fun and dynamic by notifying the player in a bolder way if they won or lost, a visually beautiful popup results diplay solved this issue. Adding sound effects, a cute whale icon, an animated wave and different messages to notify the player if they had won or lost the game made huge difference in the player having fun with the game. A third 'great!' button was added so the user can click it to make the results popup window disappear and return the player to the game. The orignal score board remains below the game control buttons and displays what round the player is on but now it does not display a win or lose message.  More simplicity and user interaction creates a more engaging user experience.
+       1. The orignal score board also updated in real time, diplaying what round the player was on and also displyed text indicating whether the player won or lost the game. It was very basic and the player wasn't clear if they had won or lost the game. To make the game more fun and dynamic by notifying the player in a bolder way if they won or lost, a visually beautiful popup results diplay solved this issue. Adding sound effects, a cute whale icon, an animated wave and different messages to notify the player if they had won or lost the game made huge difference in the player having fun with the game. A third 'great!' button was added so the user can click it to make the results popup window disappear and return the player to the game. The orignal score board remains below the game control buttons and displays what round the player is on but now it does not display a win or lose message.  More simplicity, sound effects, beautiful animation and improved user interaction creates a more engaging user game experience.
+
+    
       
 
   ### Further Testing
@@ -190,8 +193,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
 
       ```
-  - Original whale sounds were varying length and overlapped while playing making it confusing to identify a singular whale sound unique to each whale.
-    - Whale call raw files were edited down and audio mixed in Adobe Premiere Pro to 1-second durations to help simplify the audio playback game experience and build playback momentum.
+
 
   ## Deployment
 
@@ -276,5 +278,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Acknowledgements
 
-  - My Mentor, Moosa Hassan for continuous helpful feedback.
-  - Code Institute for their support.
+  - My Mentor, Moosa Hassan for his dedication and time for helpful project feedback.
+  - [Code Institute](https://codeinstitute.net/) for their support and education.
+  - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
+  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his (freeCodeCamp)(https://www.freecodecamp.org/) tutorial: (Simon Game JavaScript Tutorial for Beginners)(https://youtu.be/n_ec3eowFLQ)
