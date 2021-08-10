@@ -1,6 +1,6 @@
 # Whale Song Memory Game
 
-This memory game is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29). The goal of the user experience is to have fun while learning about the distinct differences of whale calls between various whale species.  This game will hopefully inspire its users to stop and appreciate the musical notes of whale songs and gain an interest in saving our oceans for future generations.
+This memory game is modeled after the classic [Simon (game)](https://en.wikipedia.org/wiki/Simon_%28game%29). The goal of the user experience is to have fun while learning about the distinct differences of whale calls between various whale species.  This game will hopefully inspire its users to stop and appreciate the musical notes of whale songs and gain an interest in saving our oceans for future generations. An excellent learning resource for learning about the impact of ocean noise on these majestic animals please watch the film, [Sonic Sea](https://www.sonicsea.org/).
 
 ## User Experience (UX)
 
@@ -112,7 +112,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
      - GitHub was used to store the project's code after being pushed from Git.
   7. [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
 
-     - Adobe Premiere Pro was used to edit whale sounds to 1 second each and mix all whale sounds at the same audio level to provide consistency for the player's user experience.
+     - Adobe Premiere Pro was used to edit whale sounds down to 1 second each and audio mix all whale sounds at the same audio level to provide consistency for the player's user experience.
   8. [Adobe Media Encoder](https://www.adobe.com/products/media-encoder.html)
 
      - Adobe Media Encoder was used to compress large file of animated wave into a smaller file more suitable for web playback.
@@ -134,15 +134,15 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   1. Game Controls
 
-     1. The large 'start game' button shown in wireframes was tested but tossed because it was redundant in functionality similar to 'game restart' button developed later. The latter was converted to a 'game start' button and positioned beneath the game board and highlighted in orange yellow to grab the player's attention to begin the game. This cleared up original confusion for the first time player, to use one button to start and restart the game when necessary. The game board design is now cleaner without the original large 'game start' button overlayed on top as originally shown in wireframes.
+     1. The large 'start game' button shown in wireframes was tested but tossed because it was redundant in functionality similar to 'game restart' button developed later. The latter was converted to a 'game start' button and positioned beneath the game board. The new button is highlighted in orange yellow to grab the player's attention to begin the game. This clears up original confusion for the first time player, by the use of only one button to start and restart the game when necessary. The game board design is now cleaner without the original large 'game start' button overlayed on top as originally shown in wireframes.
      2. The 'how-to-play' button was a dropdown card with game instructions and was originally located at the top of the game area beneath the header but the location and design confused the player because it looked like part of the header and not an actual game button. To remedy the player confusion, the game instructions was reduced in size and positioned to the right of the 'start game' button beneath the game board for easy access. It's design is identical to the 'start game' button so the player knows to click on it to show a nifty popover message displaying a short list of game instructions. A dim blue outline was added to the 'how-to-play button so that its design does not compete with the more important 'start game' yellow/orange outlined button.
   2. Game Board
 
-     1. When tested, the first time player encountered game visibilty issues in mobile view. The bootstrap grid aplied to the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout in all device screen sizes.
-     2. Original whale sounds were varying length and overlapped while playing making it confusing to identify a singular whale sound unique to each whale. Whale call raw files were edited down and audio mixed in Adobe Premiere Pro to 1-second durations to help simplify the audio playback game experience and build playback momentum.
+     1. When tested, the first time player encountered game visibilty issues in mobile view. The bootstrap grid applied to the game board, wrapped the game tiles in one single column in mobile view. This type of responsiveness detracted from the quality of the game experience because of having to use scroll bars to play the game on a mobile device. The initial wireframe design of using the identical game layout for all screen types was key to making the game fully functional on mobile, tablet and desktops. Media Queries were added to css to maintain the square game board layout on all device screen sizes.
+     2. Original whale sounds were varying length and overlapped while playing, making it confusing for the first time player to identify a singular whale sound unique to each whale. To remedy the audio overlap, whale call raw files were edited down and audio mixed in Adobe Premiere Pro to 1-second durations to help simplify and build momentum during the audio playback game experience.
   3. Score Board
 
-     1. The orignal score board also updated in real time, diplaying what round the player was on and also displyed text indicating whether the player won or lost the game. It was very basic and the player wasn't clear if they had won or lost the game. To make the game more fun and dynamic by notifying the player in a bolder way if they won or lost, a visually beautiful popup results diplay solved this issue. Adding sound effects, a cute whale icon, an animated wave and different messages to notify the player if they had won or lost the game made huge difference in the player having fun with the game. A third 'great!' button was added so the user can click it to make the results popup window disappear and return the player to the game. The orignal score board remains below the game control buttons and displays what round the player is on but now it does not display a win or lose message.  More simplicity, sound effects, beautiful animation and improved user interaction creates a more engaging user game experience.
+     1. The orignal score board also updated in real time, diplaying the round the player was on and also displyed text indicating whether the player won or lost the game. It was very basic and the player wasn't clear if they had won or lost the game. To make the game more fun and dynamic by notifying the player in a bolder way if they won or lost, a visually beautiful popup results diplay was added and solved this issue. Adding sound effects, a cute whale icon, an animated wave and different messages to notify the player if they had won or lost the game made a huge difference in the player having fun with the game. A third 'great!' button was added so the user can click it to make the results popup window disappear and return to the game board. The orignal score board remains below the game control buttons and still updates in real-time, the round the player is on but now it does no longer display's' a win or lose message.  These feature updates, sound effects, beautiful animation improves user interaction and creates a more engaging user game experience.
 
   ### Further Testing
 
@@ -154,7 +154,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   - Title font:'FishOutOfWater'by [Font Bros](https://www.fontbros.com/) would not load after adding link: @font-face with url for Font Bros to style.css.
 
-    - Bug was squashed by adding WOFF files to Whale Song game site directory and update the css code to:
+    - Bug was squashed by adding WOFF files to Whale Song game site repository directory and update the css code to:
 
       ```css
 
@@ -189,8 +189,9 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
     #### Bugs to fix in the next version
 
 
-    - When the site reloads, sometimes the game results popup screen covers the game board.
-    - Sometimes the game plays several game tiles at the same time after clicking on the game tiles.
+    - When the site reloads, the game results popup screen covers the game board.
+    - Sometimes the game plays several game tiles at the same time after clicking on the game
+    - When one game tile is to be played more than once in succession, the game tile only highlights once. Nonetheless it is still easy to play the game.
     - The yellow orange game tile border needs style improvements so that the border is more solid.
 
   ### Additional Features to add in the next version
@@ -252,13 +253,13 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
   - [W3 Schools - 'How To - Full Screen Video'](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
   - [Jack on Stack Overflow - 'HTML inside Twitter Bootstrap Popover'](https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover ) and [JSFiddle](http://jsfiddle.net/z824fn6b/) for code snippet on button popover.
-  - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
+  - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key for this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
   - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her JavaScript code models from her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
   - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models [freeCodeCamp](https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
 
   ### Content
 
-  - All content was written by the developer but some code snippets may be very similar and partially identical to code snippets, mentioned above under the 'Code' section. All code was customized by the developer to create a brand new game product.
+  - All content was written by [Kashina Kessler](https://kashinak.github.io/kashinak-content-portfolio/) but some code snippets may be very similar and partially identical to code snippets, mentioned above under the 'Code' section. The developer has added comments to JS CSS and HTML adding credit and links to these particular code snippets. All code was customized by the developer to create a brand new game product.
 
   ### Media
 
@@ -287,5 +288,5 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
   - My Mentor, [Moosa Hassan](https://moosahassanx.github.io/Personal-Website/) for his dedication and time for helpful project feedback.
   - [Code Institute](https://codeinstitute.net/) for their support and education.
   - [Ayooluwa Isaiah](https://freshman.tech/about/), for his informative blog: [How to build a Simon Game with JavaScript](https://freshman.tech/simon-game/)
-  - [Wojciech KAtuzny](https://mrkaluzny.medium.com/), blog: [Creating Simon Game in Javascript](https://medium.com/front-end-weekly/create-simon-game-in-javascript-d53b474a7416)
+  - [Wojciech Katuzny](https://mrkaluzny.medium.com/), blog: [Creating Simon Game in Javascript](https://medium.com/front-end-weekly/create-simon-game-in-javascript-d53b474a7416)
   - [Happy Coder](https://www.youtube.com/channel/UCLG_lIjyLPqjN-KtHK_aE-Q), for her YouTube explainer video: [Building a Simon Game web app using javascript and jQuery](https://youtu.be/4pfvy_A5ceE)
