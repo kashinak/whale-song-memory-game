@@ -255,14 +255,17 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   ### Code
 
-  - The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
   - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-  - [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+  - [W3 Schools - 'How To - Full Screen Video'](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
+  - [Jack on Stack Overflow - 'HTML inside Twitter Bootstrap Popover'](https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover ) and [JSFiddle](http://jsfiddle.net/z824fn6b/) for code snippet on button popover.
+  - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
+  - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her JavaScript code models from her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
+  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models [freeCodeCamp](https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
+
 
   ### Content
 
-  - All content was written by the developer.
-  - Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+  - All content was written by the developer but some code snippets may be very similar and partially identical to code snippets, mentioned above under the 'Code' section. All code was customized by the developer to create a brand new game product.
 
   ### Media
 
@@ -290,11 +293,7 @@ This memory game is modeled after the classic [Simon (game)](https://en.wikipedi
 
   - My Mentor, [Moosa Hassan](https://moosahassanx.github.io/Personal-Website/) for his dedication and time for helpful project feedback.
   - [Code Institute](https://codeinstitute.net/) for their support and education.
-  - Aarthi Elumalai, founder of [DigiFisk](https://digifisk.com/) for her JavaScript code models from her Udemy tutorial on building a game results popup: [2D Game Development W/ Javascript & CSS3-Create Memory Game](https://www.udemy.com/course/2d-game-development-javascript-css3-create-memory-game/)
-  - [Beau Carnes](https://www.freecodecamp.org/news/author/beau/), for his comprehensive code snippet models [freeCodeCamp](https://www.freecodecamp.org/) tutorial: [Simon Game JavaScript Tutorial for Beginners](https://youtu.be/n_ec3eowFLQ)
   - [Ayooluwa Isaiah](https://freshman.tech/about/), for his informative blog: [How to build a Simon Game with JavaScript](https://freshman.tech/simon-game/)
-  - [Web Dev Junkie](https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw) for his code snippet on creating a JavaScript promise which was key this game's functionality. This is his YouTube tutorial [Live Coding a Simon Game: HTML, CSS< Javascript](https://youtu.be/W0MxUHlZo6U)
   - [Wojciech KAtuzny](https://mrkaluzny.medium.com/), blog: [Creating Simon Game in Javascript](https://medium.com/front-end-weekly/create-simon-game-in-javascript-d53b474a7416)
   - [Happy Coder](https://www.youtube.com/channel/UCLG_lIjyLPqjN-KtHK_aE-Q), for her YouTube explainer video: [Building a Simon Game web app using javascript and jQuery](https://youtu.be/4pfvy_A5ceE)
-  - [W3 Schools - 'How To - Full Screen Video'](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp)
-  - [Jack on Stack Overflow - 'HTML inside Twitter Bootstrap Popover'](https://stackoverflow.com/questions/13202762/html-inside-twitter-bootstrap-popover ) and [JSFiddle](http://jsfiddle.net/z824fn6b/) for code snippet on button popover.
+

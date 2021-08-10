@@ -1,4 +1,4 @@
-/* fonts */
+/* FONTS */
 
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
@@ -103,8 +103,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
     background-position-x: 87%;
 }
 
-/* code snippet modeled after from https://codeinstitute.com/ Rosie resume tutorial */
-
 #game-photo-1, #game-photo-2, #game-photo-3, #game-photo-4 {
     background-size: cover;
     min-height: 360px;
@@ -115,7 +113,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 }
 
 /* game board border */
-
 #topleft, #topright, #bottomleft, #bottomright {
     padding: 0;
     border-style: solid;
@@ -123,7 +120,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 }
 
 /* border size */
-
 #topleft {
     border-width: 10px 5px 5px 10px;
 }
@@ -141,7 +137,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 }
 
 /* whale titles */
-
 .btn .titles {
     font-family: 'Michroma', sans-serif;
     font-weight: bold;
@@ -167,7 +162,6 @@ code tip from: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
 }
 
 /* popover with game instructions */
-
 .hidden {
     display:none;
 }
